@@ -1,0 +1,16 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin("3lan.in");
+ofstream fout("3lan.out");
+int n, s;
+int main()
+{
+    fin>>n;
+    for(int i=1;i<=n;i++){
+        fin>>s;
+    }
+    fout<<((n*n-n)/2)*7;
+
+    return 0;
+}
